@@ -3,13 +3,13 @@ package service;
 import constant.Message;
 import model.User;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class AuthService {
+    private ArrayList<User> users;
 
-    private final List<User> users;
-
-    public AuthService(List<User> users) {
+    public AuthService(ArrayList<User> users) {
         this.users = users;
     }
 

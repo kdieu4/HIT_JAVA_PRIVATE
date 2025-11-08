@@ -1,0 +1,49 @@
+1. 4 folder
+// Service
+// Domain: user, UUID..
+// id: 1,2..
+// uuid: chuỗi ngẫu nhiên
+// Constant
+// Helper
+// Utils
+2. ID
+3. Khai báo users ở nhiều nơi
+=> Dùng 1 biến public static cho users của toàn bộ dự án
+=> Không truyền lung tung
+4. Phạm vi truy cập cho các biến được khai báo
+5. currentUser: phiên đăng nhập
+6. Trước khi có menu của user có menu của main
+7. Menu của const string phải có final
+8. Xác thực dữ liệu khi đăng ký, đăng nhập thì ko cần
+9. Gán currentUser = <User vừa được tìm thấy>
+10. Thông báo 
+10.1 Chung chung
+10.2 Lỗi: Auth, common, user..
+10.3 Thành công
+11. Phương thức đăng ký
+- Nhập trống ít nhất một trong 4 trường hợp
+- Username.length < 3 => "Tên người dùng ngắn"
+- Chứa khoảng trắng...
+
+12. READ và UPDATE: mọi chức năng được chia làm 2 loại
+- READ = SELECT ==> không cần valid
+- UPDATE => Thay đổi db => kiểm tra kỹ => Đảm bản ghi hợp lệ và xác thực
+
+13. Mật khẩu cần chứa ký tự in hoa, chữ cái thường, chữ số, số lượng => dùng regex
+
+14. Viết hàm static boolean isValidPassword trong class helper
+
+15. Kiểm tra xác thực rồi thì vào database
+- Kiểm tra username đã tồn tại
+- 
+
+16. Thêm chức năng quên mật khẩu, đổi mật khẩu
+- MK mới có trùng với mật khẩu cũ ko ...
+
+17. Nếu users là trống
+
+18. Logout: currentUser = null;
+
+19. Liên kết ko chặt chẽ ==> QUAN TRỌNG
+- Liên kết giữa thuộc tính với phương thức
+

@@ -6,9 +6,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class UserService {
-    List<User> users = new ArrayList<>();
+    ArrayList<User> users = new ArrayList<>();
 
-    public UserService(List<User> users) {
+    public UserService(ArrayList<User> users) {
         this.users = users;
     }
 
@@ -22,8 +22,9 @@ public class UserService {
     }
 
     public void getAllUsers() {
-        for(User user : users) {
+        for (User user : users) {
             System.out.println(user);
         }
     }
+
 }

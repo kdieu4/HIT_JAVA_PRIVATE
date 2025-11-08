@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        List<User> users = new ArrayList<>();
+        ArrayList<User> users = new ArrayList<>();
         users.add(new User("a", "b", "HoangThanhDieu2006@gmail.com", "0964560712"));
         users.add(new User("phuonganh", "dvvdd", "DangPhuongAnh1506@gmail.com", "0946206280"));
         users.add(new User("giahuy", "dffesv", "DaoGiaHuy1005@gmail.com", "0976365470"));
