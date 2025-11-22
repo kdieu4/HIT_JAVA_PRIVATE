@@ -1,4 +1,4 @@
-package bai1.constant;
+package BTTL.constant;
 
 public class SuccessMessage {
 }
