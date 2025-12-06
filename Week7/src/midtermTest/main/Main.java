@@ -63,6 +63,13 @@ public class Main {
                     }
                     else {
                         System.out.println(Common.SHOW_SAME_NAME_LIST +  sameNameEmployees.toString());
+<<<<<<< HEAD
+=======
+                        // for  (int i = 0; i < sameNameEmployees.size(); i++) {
+                        //     System.out.println(sameNameEmployees.get(i).toString());
+                        // }
+                        // System.out.println(sameNameEmployees.size());
+>>>>>>> 2415effabd80465871ac75a798be724ec522d48a
                     }
                 case 4:
                     isContinue = false;
