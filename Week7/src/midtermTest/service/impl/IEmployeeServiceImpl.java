@@ -30,9 +30,12 @@ public class IEmployeeServiceImpl implements IEmployeeService {
         for (Employee employee : employees) {
             if (employee.getName().equalsIgnoreCase(name)) {
                 res.add(employee);
-                System.out.println("--");
+//                System.out.println("--");
             }
         }
         return res;
     }
 }
+
+// Tập trung xử lý lỗi
+

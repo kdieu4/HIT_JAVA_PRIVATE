@@ -63,10 +63,6 @@ public class Main {
                     }
                     else {
                         System.out.println(Common.SHOW_SAME_NAME_LIST +  sameNameEmployees.toString());
-                        for  (int i = 0; i < sameNameEmployees.size(); i++) {
-                            System.out.println(sameNameEmployees.get(i).toString());
-                        }
-                        System.out.println(sameNameEmployees.size());
                     }
                 case 4:
                     isContinue = false;
